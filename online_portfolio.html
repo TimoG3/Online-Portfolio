@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giron Online Portfolio</title>
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="portfolio_design.css">
+</head>
+
+<!-- Navigation -->
+<header id="header" class="navbar">
+    <div id="home" class="left">
+        <a href="#home" class="nav" title="The main section">Home</a>
+        <a href="#about" class="nav" title="Want to know more?">About</a>
+    </div>
+    <div class="logo">
+        <a href="#header"><img src="/Project/pictures/mylogo.png" alt="Logo"></a>
+    </div>
+    <div class="right">
+        <a href="#work" class="nav" title="What I made so far">Works</a>
+        <a href="#contacts" class="nav" title="Any questions?">Contacts</a>
+    </div>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="homepg secDesign">
+    <div class="divLeft">
+        <h1><span style="font-size: 3rem;">Hey fellow programmers! I am... </span><span style="text-decoration: underline;"><br>Timothy Giron</span></h1>
+        <h3 class="detail">I'm an <span style="color: #B94C54; text-decoration: underline;"><b>IT College Student</b></span> studying in DLL</h3>
+        <p class="desc">Throughout the years of immersing myself in the study of coding, I have accumulated a wealth of knowledge and skills, honing my abilities in various domains. 
+            As a dedicated IT student, I view coding not only as a skill but as an essential tool for creating many practical and innovative websites and applications. 
+            It brings me immense satisfaction to showcase a selection of my coded works and projects, reflective of my ongoing journey and progress in this dynamic field.
+        </p>
+        <div>
+            <a href="/Project/Resume.pdf" download="Online-Resume-Giron.pdf" class="link">Download CV</a>
+        </div>
+    </div>
+    <div class="divRight">
+        <img src="/Project/pictures/port-photo-nobg.png" alt="my-photo" class="photo1">
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="aboutpg secDesign">
+    <h2>About</h2>
+    <div class="about-container">
+        <div class="images">
+            <img src="/Project/pictures/HTML.png" alt="HTML">
+            <img src="/Project/pictures/CSS.png" alt="CSS">
+            <img src="/Project/pictures/JS.png" alt="JS">
+            <img src="/Project/pictures/PHP.png" alt="PHP">
+            <img src="/Project/pictures/MYSQL.png" alt="MYSQL">
+        </div>
+        <div class="description">
+            <p class="desc">
+                In my first year of learning about coding, I started with the basics like HTML, CSS, JavaScript, phpMyAdmin, and MySQL.
+                It was tough at first, but I kept practicing and working on different projects to get better.
+                By my second year, I got the hang of building websites that looked cool and worked smoothly.
+                I spent a lot of time learning how to make them more interactive and fun for users, experimenting with different features and designs.
+                
+                Now that I'm in my third year, I'm diving even deeper into coding, exploring more advanced concepts and techniques to enhance my skills further.
+                I want to become either a professional programmer or a web developer because I love solving problems and coming up with new ideas.
+                I'm excited to keep learning and see where this journey takes me, eager to contribute to the exciting world of technology and make a positive impact with my work.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Work Section -->
+<section id="work" class="workpg secDesign">
+    <h2>Works</h2>
+    <div class="work-container">
+        <div class="workImg">
+            <img src="/Project/pictures/work1.PNG" alt="Game Station">
+        </div>
+        <div class="links">
+            <a href="https://timog3.github.io/responsive-website/" target="_blank" class="link">Live Demo</a>
+            <a href="https://github.com/TimoG3/responsive-website" target="_blank" class="link">Source Code</a>
+        </div>
+    </div>
+    <div class="work-container">
+        <div class="workImg">
+            <img src="/Project/pictures/work2.PNG" alt="Working Calculator">
+        </div>
+        <div class="links">
+            <a href="https://timog3.github.io/Working-Calculator/" target="_blank" class="link">Live Demo</a>
+            <a href="https://github.com/TimoG3/Working-Calculator" target="_blank" class="link">Source Code</a>
+        </div>
+    </div>
+    <div class="work-container">
+        <div class="workImg">
+            <img src="/Project/pictures/work3.PNG" alt="2DoList">
+        </div>
+        <div class="links">
+            <a href="https://timog3.github.io/2DoList/" target="_blank" class="link">Live Demo</a>
+            <a href="https://github.com/TimoG3/2DoList" target="_blank" class="link">Source Code</a>
+        </div>
+    </div>
+    <div class="work-container">
+        <div class="workImg">
+            <img src="/Project/pictures/work4.PNG" alt="addEventListener">
+        </div>
+        <div class="links">
+            <a href="https://timog3.github.io/HandsOn1-addEventListener-WS101/" target="_blank" class="link">Live Demo</a>
+            <a href="https://github.com/TimoG3/HandsOn1-addEventListener-WS101" target="_blank" class="link">Source Code</a>
+        </div>
+    </div>
+    <div class="work-container">
+        <div class="workImg">
+            <img src="/Project/pictures/work5.PNG" alt="Color Changer">
+        </div>
+        <div class="links">
+            <a href="https://timog3.github.io/HandsOn2-colorChanger-WS101/" target="_blank" class="link">Live Demo</a>
+            <a href="https://github.com/TimoG3/HandsOn2-colorChanger-WS101" target="_blank" class="link">Source Code</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contacts" class="contactpg secDesign">
+    <h2>Contacts</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+
+<!-- JS -->
+<button onclick="topFunction()" id="scroll" title="Go to top">Go back</button>
+
+</body>
+<script src="portfolioJS.js"></script>
+</html>
