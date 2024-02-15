@@ -168,7 +168,7 @@ h2 {
 .homepg {
     min-height: 100vh;
     height: 500px;
-    background-image: url(/Project/pictures/sect1.png);
+    background-image: url(./pictures/sect1.png);
     scroll-behavior: smooth;
     display: flex;
     flex-direction: row;
@@ -200,7 +200,7 @@ h2 {
 .aboutpg {
     min-height: 100vh;
     color: #FFC0CB;
-    background-image: url(/Project/pictures/sect2.png);
+    background-image: url(./pictures/sect2.png);
     scroll-behavior: smooth;
     display: flex;
     flex-direction: column;
@@ -209,7 +209,7 @@ h2 {
 
 .workpg {
     min-height: 100vh;
-    background-image: url(/Project/pictures/sect3.png);
+    background-image: url(./pictures/sect3.png);
     scroll-behavior: smooth;
 }
 
@@ -259,7 +259,7 @@ h2 {
 .contactpg {
     min-height: 100vh;
     color: #FFC0CB;
-    background-image: url(/Project/pictures/sect4.png);
+    background-image: url(./pictures/sect4.png);
     scroll-behavior: smooth;
 }
 
